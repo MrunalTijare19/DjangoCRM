@@ -8,6 +8,7 @@
 
 # Ignore all txt files
 # *.txt
+mydb.py
 
 # Django #
 *.log
