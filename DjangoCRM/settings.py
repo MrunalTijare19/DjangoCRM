@@ -76,16 +76,16 @@ WSGI_APPLICATION = 'DjangoCRM.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'customer',
-        'USER': 'root',
-        'PASSWORD': 'Yuvraj@19',
-        'HOST': 'localhost',
-        'PORT': '3306',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'customer',
+#         'USER': 'root',
+#         'PASSWORD': 'Yuvraj@19',
+#         'HOST': 'localhost',
+#         'PORT': '3306',
+#     }
+# }
 
 
 # Password validation
