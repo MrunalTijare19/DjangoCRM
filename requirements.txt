@@ -31,3 +31,4 @@ urllib3==1.26.13
 virtualenv==20.17.1
 virtualenv-clone==0.5.7
 virtualenvwrapper-win==1.2.7
+django==4.1.4
