@@ -7,7 +7,7 @@
 
 
 # Ignore all txt files
-*.txt
+# *.txt
 
 # Django #
 *.log
