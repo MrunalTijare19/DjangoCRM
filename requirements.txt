@@ -8,9 +8,9 @@ Django==4.1.4
 djangorestframework==3.14.0
 filelock==3.8.2
 idna==3.4
-mysql==0.0.3
-mysql-connector-python==8.0.32
-mysqlclient==2.1.1
+# mysql==0.0.3
+# mysql-connector-python==8.0.32
+# mysqlclient==2.1.1
 numpy==1.23.5
 Pillow==9.4.0
 # pipenv==2023.2.18
