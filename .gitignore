@@ -3,7 +3,7 @@
 
 # Ignore all json files
 *.json
-*.sh
+# *.sh
 
 
 # Ignore all txt files
@@ -182,4 +182,4 @@ GitHub.sublime-settings
 !api
 !vercel.json
 !*.html
-!build_files.sh
+# build_files.sh
