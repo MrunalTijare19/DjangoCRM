@@ -76,17 +76,17 @@ WSGI_APPLICATION = 'DjangoCRM.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'URL': os.getenv('postgresql://postgres:j2UuZfORkf7OcfziPA55@containers-us-west-164.railway.app:6875/railway'),
-        'NAME': os.getenv('railway'),
-        'USER': os.getenv('postgres'),
-        'PASSWORD': os.getenv('j2UuZfORkf7OcfziPA55'),
-        'HOST': os.getenv('containers-us-west-164.railway.app'),
-        'PORT': os.getenv('6875'),
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'URL': os.getenv('postgresql://postgres:j2UuZfORkf7OcfziPA55@containers-us-west-164.railway.app:6875/railway'),
+#         'NAME': os.getenv('railway'),
+#         'USER': os.getenv('postgres'),
+#         'PASSWORD': os.getenv('j2UuZfORkf7OcfziPA55'),
+#         'HOST': os.getenv('containers-us-west-164.railway.app'),
+#         'PORT': os.getenv('6875'),
+#     }
+# }
 
 
 # Password validation
